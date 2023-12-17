@@ -28,6 +28,12 @@
   "hide-on-clear": false,
   "hide-on-action": true,
   "script-fail-notify": true,
+  "scripts": {
+    "play-sound": {
+      "exec": "paplay /home/pyro/.config/sounds/tap-notification.mp3",
+      "run-on": "receive"
+    }
+  },
   "notification-visibility": {
     "example-name": {
       "state": "muted",

@@ -26,6 +26,7 @@
     "custom/powerprofile",
     "cpu",
     "memory",
+    "disk",
     "battery",
     "clock",
     "custom/notification", // block end
@@ -40,6 +41,12 @@
     "artist-len": 30,
     "title-len": 40,
     "interval": 1
+  },
+
+  "disk": {
+    "format": "{percentage_used}% \udb80\udeca",
+    "path": "/",
+    "on-click": "sleep 0.1 && /usr/bin/kitty /home/pyro/.cargo/bin/dua"
   },
 
   "hyprland/workspaces": {

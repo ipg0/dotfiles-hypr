@@ -93,7 +93,8 @@ window#waybar > * {
 #backlight,
 #battery,
 #clock,
-#custom-sharing {
+#custom-sharing,
+#disk {
   background-color: #1b1b1b;
 }
 

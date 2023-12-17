@@ -1,0 +1,3 @@
+[filechooser]
+cmd=/home/pyro/.config/xdg-desktop-portal-termfilechooser/xplr-wrapper.sh
+default_dir=/home/pyro/Downloads
