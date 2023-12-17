@@ -19,7 +19,7 @@ The dotfiles are a bit messy, and the scripts have some weird dependencies (for 
 - VS Code theme: Potpourri Contrast (rainglow) from Rainglow Themes extension
 - GTK theme: Yaru Magenta Dark because I don't use many GTK apps so I didn't bother
 - Vivaldi theme: Robots with background image replaced
-- Font: Ubuntu Nerd Font
+- Font: Ubuntu Nerd Font for UI, Fira Code Mono Nerd Font for code & terminal
 - Wallpaper: a random picture I took out of a window years ago (super noisy)
 - Custom scripts in Ruby, of all languages: present
 
