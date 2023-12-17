@@ -1,0 +1,131 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "Ubuntu Nerd Font";
+  font-weight: 100;
+  font-size: 14px;
+  min-height: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+window#waybar {
+  background: transparent;
+  color: white;
+}
+
+tooltip {
+  color: white;
+  background-color: rgba(27, 27, 27, 0.8);
+  border-radius: 20px;
+}
+
+tooltip * {
+  color: white;
+  text-shadow: none;
+}
+
+#workspaces {
+  padding: 0;
+  background-color: #1b1b1b;
+  border-radius: 20px;
+}
+
+#workspaces button:not(:last-child) {
+  margin-right: 10px;
+}
+
+window#waybar > * {
+  margin-top: 10px;
+  min-height: 30px;
+}
+
+#workspaces button {
+  padding: 0;
+  background: transparent;
+  border-radius: 20px;
+  transition: all 0.15s ease-in-out;
+}
+
+#workspaces button.active {
+  background: linear-gradient(45deg, #9d37fc, #ed1153);
+}
+
+#custom-appmenu, #custom-powercontrol, #mpris {
+  background: linear-gradient(45deg, #9d37fc, #ed1153);
+  border-radius: 20px;
+}
+
+#custom-appmenu {
+  background-image: url("/home/pyro/.config/waybar/appmenu.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* block starts */
+#network,
+#pulseaudio {
+  padding-left: 20px;
+  margin-left: 10px;
+  border-radius: 20px 0 0 20px;
+  background-color: #1b1b1b;
+  /* background: linear-gradient(45deg, #9d37fc 0%, #ed1153 80%); */
+}
+
+/* block ends */
+#custom-notification,
+#language {
+  padding-right: 20px;
+  margin-right: 10px;
+  border-radius: 0 20px 20px 0;
+  background-color: #1b1b1b;
+  /* background: linear-gradient(-135deg, #9d37fc 0%, #ed1153 80%); */
+}
+
+/* inside blocks */
+#custom-vpn,
+#memory,
+#bluetooth,
+#custom-powerprofile,
+#cpu,
+#custom-audiosource,
+#backlight,
+#battery,
+#clock,
+#custom-sharing {
+  background-color: #1b1b1b;
+}
+
+#battery.charging {
+}
+
+@keyframes battery-warning {
+  to {
+    color: #9d37fc;
+  }
+}
+
+@keyframes battery-critical {
+  to {
+    color: #ed1153;
+  }
+}
+
+#battery.warning:not(.charging) {
+  color: white;
+  animation-name: battery-warning;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#battery.critical:not(.charging) {
+  color: white;
+  animation-name: battery-critical;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

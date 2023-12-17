@@ -1,0 +1,186 @@
+{
+  "layer": "top", // Waybar at top layer
+  "position": "top", // Waybar at the bottom of your screen
+  "height": 40, // Waybar height
+  // "width": 1366, // Waybar width
+  // Choose the order of the modules
+  "modules-left": [
+    "custom/appmenu", // sep block
+
+    "pulseaudio", // block start
+    "custom/audiosource",
+    "backlight",
+    "custom/sharing",
+    "hyprland/language", // block end
+
+    "hyprland/workspaces" // sep blocks
+  ],
+  "spacing": 0,
+  "modules-center": [], // sep block
+  "modules-right": [
+    "mpris", // sep block
+
+    "network", // block start
+    "custom/vpn",
+    "bluetooth",
+    "custom/powerprofile",
+    "cpu",
+    "memory",
+    "battery",
+    "clock",
+    "custom/notification", // block end
+    "custom/powercontrol" // sep block
+  ],
+  "mpris": {
+    "dynamic-order": ["title", "artist"],
+    "format": "\udb81\uddee {dynamic}",
+    "format-playing": "\udb81\uddee {dynamic} \udb81\udc0a",
+    "format-paused": "\udb81\uddee {dynamic} \udb80\udfe4",
+    "format-stopped": "\udb81\uddee {dynamic} \udb80\udfe4",
+    "artist-len": 30,
+    "title-len": 40,
+    "interval": 1
+  },
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "on-click": "activate",
+    "sort-by-number": true
+  },
+  "custom/powercontrol": {
+    "format": "\udb81\udc25",
+    "tooltip": false,
+    "on-click": "sleep 0.1 && /home/pyro/.config/scripts/wofi_power_control.rb"
+  },
+  "custom/appmenu": {
+    // "format": "\udb80\udc3b",
+    // "format": "<img src=\"/home/pyro/.config/waybar/mys.svg\"></img>",
+    "tooltip": false,
+    "format": "    ",
+    "on-click": "sleep 0.1 && /bin/wofi -p Run --show drun"
+  },
+
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "\udb80\udc9a<sup></sup>",
+      "none": "\udb80\udc9a",
+      "dnd-notification": "\udb80\udc9b<sup></sup>",
+      "dnd-none": "\udb80\udc9b",
+      "inhibited-notification": "\udb80\udc9a<sup></sup>",
+      "inhibited-none": "\udb80\udc9a",
+      "dnd-inhibited-notification": "\udb80\udc9b<sup></sup>",
+      "dnd-inhibited-none": "\udb80\udc9b"
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "sleep 0.5 && swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+
+  "clock": {
+    "format": "{:%a %d %b %H:%M}"
+  },
+
+  "hyprland/language": {
+    "format": "{shortDescription}"
+  },
+
+  "cpu": {
+    "format": "{usage}% \uf080",
+    "on-click": "sleep 0.1 && /usr/bin/kitty /bin/btop"
+  },
+  "memory": {
+    "format": "{}% \uf4bc",
+    "on-click": "sleep 0.1 && /usr/bin/kitty /bin/btop"
+  },
+  "battery": {
+    "interval": 1,
+    "bat": "BAT0",
+    "adapter": "AC",
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% {icon} \udb85\udc0b",
+    "format-full": "{capacity}% {icon} \udb85\udc0b",
+    "format-icons": ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"]
+  },
+  "network": {
+    "interface": "wlp0s20f3", // (Optional) To force the use of this interface
+    "format-wifi": "{essid} \uf1eb",
+    "format-ethernet": "{ifname}: \udb80\ude00",
+    "format-disconnected": "Disconnected",
+    "interval": 1,
+
+    "tooltip-format-wifi": "{essid} ({frequency}GHz {signalStrength}%)\n\n{ipaddr}/{cidr}\n{bandwidthDownBits}   \udb80\udc45\n{bandwidthUpBits}   \udb80\udc5d",
+    "tooltip-format-ethernet": "{ifname}\n\n{ipaddr}/{cidr}\n{bandwidthDownBits}   \udb80\udc45\n{bandwidthUpBits}   \udb80\udc5d",
+    "tooltip-format-disconnected": "Disconnected",
+
+    "on-click": "sleep 0.1 && /usr/bin/kitty /usr/bin/nmtui"
+  },
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-bluetooth": "{volume}% {icon} \udb80\udcaf",
+    "format-muted": "\udb83\ude08",
+    "format-icons": {
+      "default": ["\udb81\udd7f", "\udb81\udd80", "\udb81\udd7e"]
+    },
+    "scroll-step": 1,
+    "on-click": "sleep 0.1 && /home/pyro/.config/scripts/wofi_audio_switcher.rb",
+    "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+  },
+  "custom/audiosource": {
+    "exec": "/home/pyro/.config/scripts/get_active_input_volume.rb",
+    "interval": 1,
+    "format": "{}",
+    "on-click": "sleep 0.1 && /home/pyro/.config/scripts/wofi_audio_switcher.rb -sm",
+    "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
+    "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SOURCE@ 1%+",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SOURCE@ 1%-"
+  },
+  "custom/powerprofile": {
+    "exec": "/home/pyro/.config/scripts/get_power_profile.rb",
+    "interval": 1,
+    "format": "{}",
+    "on-click": "sleep 0.1 && /home/pyro/.config/scripts/wofi_power_switcher.rb"
+  },
+  "custom/sharing": {
+    "exec": "/home/pyro/.config/scripts/get_sharing_data.rb",
+    "interval": 1,
+    "format": "{}",
+    "return-type": "json"
+  },
+  "backlight": {
+    "format": "{percent}% {icon}",
+    "format-icons": [
+      "\udb86\ude4e",
+      "\udb86\ude51",
+      "\udb86\ude54",
+      "\udb81\udee8"
+    ]
+  },
+  "bluetooth": {
+    "format": "{status} \udb80\udcaf",
+    "format-off": "Off \udb80\udcaf",
+    "format-on": "On \udb80\udcaf",
+    "format-disabled": "Disabled \udb80\udcaf",
+    "format-connected": "{num_connections} \udb80\udcb1",
+    "tooltip-format": "{controller_alias}",
+    "tooltip-format-connected": "{controller_alias}\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}",
+    "tooltip-format-enumerate-connected-battery": "{device_alias}   {device_battery_percentage}% \uf240",
+    "on-click": "sleep 0.1 && /usr/bin/kitty /home/pyro/go/bin/bluetuith"
+  },
+  "custom/privacy": {},
+  "custom/vpn": {
+    "exec": "/home/pyro/.config/scripts/get_vpn_state.rb",
+    "interval": 1,
+    "format": "{}",
+    "on-click": "sleep 0.1 && /usr/bin/kitty /usr/bin/nmtui"
+  }
+}
