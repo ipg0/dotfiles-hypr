@@ -1,7 +1,8 @@
 # My Hyprland dotfiles
 
-Entirely my own config, inspired by a lot of different things at once.
-The dotfiles are a bit messy, and the scripts have some weird dependencies, so use/modify with caution.
+Entirely my own config, inspired by a lot of different things in small ways.
+I just like red-purple-blue-ish colour schemes.
+The dotfiles are a bit messy, and the scripts have some weird dependencies (for example, they all reference a specific version Ruby binary from RVM), so use/modify with caution.
 
 ## Config:
 - OS: Ubuntu
@@ -20,7 +21,6 @@ The dotfiles are a bit messy, and the scripts have some weird dependencies, so u
 - Vivaldi theme: Robots with background image replaced
 - Font: Ubuntu Nerd Font
 - Wallpaper: a random picture I took out of a window years ago (super noisy)
-- Colour scheme: just a set of colours that I like
 - Custom scripts in Ruby, of all languages: present
 
 ## Screenshots
@@ -29,7 +29,7 @@ The dotfiles are a bit messy, and the scripts have some weird dependencies, so u
 
 ![image](https://github.com/ipg0/dotfiles-hypr/assets/25267577/b43e5832-de95-48e8-8cd7-d34398a497ff)
 
-![image](https://github.com/ipg0/dotfiles-hypr/assets/25267577/213b0c52-e447-4130-bced-10cc9cf5ba42)
+![image](https://github.com/ipg0/dotfiles-hypr/assets/25267577/52db4fef-62c9-4b0e-a4ab-2df9998067ba)
 
 ![image](https://github.com/ipg0/dotfiles-hypr/assets/25267577/6e7dba12-263f-4ebc-9f74-bb8ca5a6795a)
 
