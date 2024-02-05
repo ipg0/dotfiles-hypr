@@ -34,6 +34,7 @@ set -gx VOLTA_HOME "$HOME/.volta"
 set -gx PATH "$VOLTA_HOME/bin" $PATH
 
 alias clock="bigtime -fSqdn --file basic2"
+alias clears="printf '\033[2J\033[3J\033[1;1H'"
 
 set -u VIRTUAL_ENV_DISABLE_PROMPT true
 
