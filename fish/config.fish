@@ -1,11 +1,7 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
-
+# disable default message
 set fish_greeting
 
-rvm default &> /dev/null
-
+# git statusline in prompt
 set -g __fish_git_prompt_show_informative_status 1
 set -g __fish_git_prompt_showupstream informative
 set -g __fish_git_prompt_showdirtystate yes
@@ -18,25 +14,83 @@ set -g __fish_git_prompt_char_stashstate ' ⚑ '
 set -g __fish_git_prompt_char_untrackedfiles ' ? '
 set -g __fish_git_prompt_char_upstream_ahead ' ↑ '
 set -g __fish_git_prompt_char_upstream_behind ' ↓ '
-set -g __fish_git_prompt_char_upstream_diverged ' ﱟ⇄ '
+set -g __fish_git_prompt_char_upstream_diverged ' ⇄ '
 set -g __fish_git_prompt_char_upstream_equal ' = '
 set -g __fish_git_prompt_char_upstream_prefix ''''
 
+# brew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# rvm
+rvm default &>/dev/null
+
+# ctrl + backspace = erase word
 bind \b backward-kill-word
 
-thefuck --alias | source
-
-set -Ux ANDROID_HOME /home/pyro/Android/Sdk
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
+
+# volta
 set -gx VOLTA_HOME "$HOME/.volta"
 set -gx PATH "$VOLTA_HOME/bin" $PATH
 
-alias clock="bigtime -fSqdn --file basic2"
+# open a digital clock in the terminal
+alias clock="bigtime -fSqd --file basic2"
+
+# clear both terminal and scrollback buffer
 alias clears="printf '\033[2J\033[3J\033[1;1H'"
 
+# for scripts using standalone docker-compose
+alias docker-compose='docker compose'
+
+# zoxide
+zoxide init fish | source
+
+# batcat
+alias cat="batcat"
+alias pcat="cat -pp"
+set --export MANROFFOPT -c
+set --export MANPAGER "sh -c 'col -bx | batcat -l man -p'"
+set --export BAT_THEME base16
+
+# because I am an extension junkie, a VSCode fanboy and a masochist
+set --export EDITOR code
+
+# cd through Zoxide using Yazi
+# because why not
+alias cx="z (yazi --chooser-file=/dev/stdout | while read; echo; end;)"
+
+# since the default option for rm is to drop the fucking nukes
+alias "fuck-off-and-rm"="/bin/rm"
+alias "fuck-off-and-rmdir"="/bin/rmdir"
+alias rm="rmtrash"
+alias rmdir="rmdirtrash"
+alias sudo="sudo "
+# so I never call rm -rf ./* by accident (again)
+
+# because it broke for some reason
+alias haskell-language-server="haskell-language-server-wrapper"
+
+# so venv doesn't mess up my prompt
 set -u VIRTUAL_ENV_DISABLE_PROMPT true
 
+# activate venv
 source $HOME/.venv/bin/activate.fish
 
+# Python is a toy programming language,
+# a minor version breaks this package
+
+# thefuck --alias | source
+
+# brew completions
+if test -d (brew --prefix)"/share/fish/completions"
+    set -p fish_complete_path (brew --prefix)/share/fish/completions
+end
+
+if test -d (brew --prefix)"/share/fish/vendor_completions.d"
+    set -p fish_complete_path (brew --prefix)/share/fish/vendor_completions.d
+end
+
+# some crutch for work, I don't remember why it's here
+set --export GOPATH /home/pyro/go

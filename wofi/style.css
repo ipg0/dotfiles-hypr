@@ -7,13 +7,10 @@ window {
   font-size: 16px;
 }
 
-* {
-  outline: none;
-}
-
 #input {
   border-radius: 100px;
-  border: 0px;
+  border: none;
+  box-shadow: none;
   padding: 10px;
   margin: 0px;
   color: white;
@@ -57,4 +54,10 @@ window {
 
 expander > list {
   border-radius: 20px;
+}
+
+* {
+  outline: none;
+  outline-width: 0;
+  border-radius: 0;
 }

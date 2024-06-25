@@ -3,8 +3,7 @@
 FILE=$(xdg-user-dir PICTURES)/Screenshots/$(date +'Screenshot-%Y-%m-%d-%H%M%S.png')
 BUFFER=~/.tmp/slurp.buffer
 
-slurp -c 9d37fcff > $BUFFER
+slurp -b 9d37fc66 -c 00000000 > $BUFFER
 # so slurp's selection border has time to disappear before screenshot is taken
-sleep 1
 cat $BUFFER | grim -g - $FILE
 wl-copy < $FILE
