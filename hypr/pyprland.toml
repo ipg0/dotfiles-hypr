@@ -1,0 +1,4 @@
+[pyprland]
+plugins = [
+  "expose",
+]
