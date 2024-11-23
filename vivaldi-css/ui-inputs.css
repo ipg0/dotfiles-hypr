@@ -1,0 +1,154 @@
+/* clickable toolbar button */
+
+.toolbar-default .button-toolbar > button:enabled,
+input[type="button"]:not(.circular),
+input[type="submit"],
+input[type="color"],
+.FormButton,
+.calendar-add-event-button,
+select:enabled:not([multiple], [size]),
+.VivaldiSelector:not(:focus-within) .Inner__control,
+.CalendarSelector .ToolbarButton-Button,
+.StatusPopup-Mail,
+.StatusPopup-Account,
+.StatusPopup-Event,
+.StatusPopup-LogEntry {
+  background-image: none;
+  background-color: #2f2f2f;
+}
+
+.StatusPopup-Mail,
+.StatusPopup-Account,
+.StatusPopup-Event,
+.StatusPopup-LogEntry {
+  padding: 10px;
+}
+
+/* active toolbar button */
+
+.toolbar-default
+  .button-toolbar
+  > button:enabled:hover:not(:disabled).button-pressed {
+  background-image: linear-gradient(
+    45deg,
+    hsl(271, 97%, 50%),
+    hsl(342, 87%, 40%)
+  );
+}
+
+.toolbar-default .button-toolbar > button:enabled.button-pressed,
+select:enabled:not([multiple], [size]):active:not(:disabled),
+.VivaldiSelector:not(:focus-within) .Inner__control:active:not(:disabled),
+.vivaldi-tree .tree-row.dragover,
+.hasfocus .vivaldi-tree:focus-within .tree-row[data-selected] {
+  background-image: linear-gradient(45deg, #9d37fc, #ed1153);
+  box-shadow: none;
+}
+
+.theme-dark input[type="radio"],
+.theme-dark input[type="checkbox"] {
+  background-image: none;
+  background-color: #2f2f2f;
+}
+
+input[type="radio"]:checked {
+  background-color: white;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--colorHighlightBg);
+}
+
+input[type="checkbox"]:before,
+input[type="checkbox"]:after {
+  background-color: white;
+}
+
+button,
+input,
+select,
+textarea,
+input[type="text"],
+input[type="search"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="number"],
+input[type="radio"],
+input[type="date"],
+input[type="time"],
+input[type="checkbox"],
+input[type="button"],
+input[type="submit"],
+.panel-group .sortselector.sortselector-compact,
+.download-popout .sortselector.sortselector-compact,
+.sortselector.sortselector-compact .sortselector-button,
+.button-toolbar > button,
+.multiinput {
+  border: none;
+}
+
+.StatusPopup {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+}
+
+.calendar-grid-days .calendar-drop-target .day.current {
+  background-color: none;
+  background-image: linear-gradient(45deg, #9d37fc, #ed1153);
+  color: white;
+}
+
+.color-behind-tabs-off .SearchField.MailSearchField {
+  background: #ffffff2e;
+}
+
+.button-toolbar > button:hover,
+.button-toolbar > button:active {
+  background-color: #ffffff56;
+}
+
+.color-behind-tabs-off
+  .toolbar-mainbar
+  .button-toolbar
+  > button
+  > span.button-toolbar-menu-indicator:hover {
+  background-color: transparent;
+}
+
+.win .vivaldi-tree .tree-item[data-lead] .tree-row.tree-row:not([data-nofocus]),
+.linux
+  .vivaldi-tree
+  .tree-item[data-lead]
+  .tree-row.tree-row:not([data-nofocus]) {
+  box-shadow: none;
+}
+
+.MailLabels-Label {
+  border-radius: 10px;
+  padding: 0 6px;
+}
+
+.MailListButtons,
+.webpageview #mail_view .list-wrapper,
+.Event-Rsvp {
+  background-color: #1b1b1b;
+}
+
+.theme-dark .webpageview #mail_view.vertical .mail_entry.last-mail-child,
+.theme-dark .webpageview #mail_view.vertical .mail_entry.mail-child,
+.theme-dark
+  .webpageview
+  #mail_view.vertical
+  .mail_entry.mail-parent:not(.mail-child) {
+  background-color: #2f2f2f;
+}
+
+.sortselector,
+.MailListButtons {
+  border: none;
+}
+
+#quick_reply textarea {
+  padding: 10px;
+}

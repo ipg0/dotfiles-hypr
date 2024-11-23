@@ -1,0 +1,34 @@
+.color-behind-tabs-off .mainbar {
+  background-color: none;
+  background-image: linear-gradient(45deg, #9d37fc, #ed1153);
+  border: none;
+}
+
+#browser .tab.active {
+  background-color: none;
+  background-image: linear-gradient(45deg, #9d37fc, #ed1153);
+}
+
+:focus-visible {
+  outline: white;
+}
+
+.color-behind-tabs-off .SearchField:focus-within,
+.color-behind-tabs-off .MailSearchField-Inner:focus-within,
+.color-behind-tabs-off .UrlBar-AddressField:focus-within {
+  outline: 2px solid white;
+}
+
+.color-behind-tabs-off
+  .toolbar-mainbar
+  .toolbar-extensions
+  > .button-toolbar
+  > button:hover,
+.color-behind-tabs-off
+  .toolbar-mainbar
+  .page-zoom-controls
+  > .button-toolbar
+  > button:hover,
+.color-behind-tabs-off .toolbar-mainbar > .button-toolbar > button:hover {
+  background-color: #ffffff2e;
+}
