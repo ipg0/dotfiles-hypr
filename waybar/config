@@ -32,6 +32,7 @@
     "custom/notification", // block end
     "custom/powercontrol" // sep block
   ],
+
   "mpris": {
     "dynamic-order": ["title", "artist"],
     "format": "\udb81\uddee {dynamic}",
@@ -128,7 +129,7 @@
     "tooltip-format-ethernet": "{ifname}\n\n{ipaddr}/{cidr}\n{bandwidthDownBits}   \udb80\udc45\n{bandwidthUpBits}   \udb80\udc5d",
     "tooltip-format-disconnected": "Disconnected",
 
-    "on-click": "sleep 0.1 && /usr/bin/kitty /usr/bin/nmtui"
+    "on-click": "sleep 0.1 && /usr/bin/kitty /bin/bash -c \"sleep 0.1; /usr/bin/nmtui\""
   },
   "pulseaudio": {
     "format": "{volume}% {icon}",
@@ -188,6 +189,6 @@
     "exec": "/home/pyro/.config/scripts/get_vpn_state.rb",
     "interval": 1,
     "format": "{}",
-    "on-click": "sleep 0.1 && /usr/bin/kitty /usr/bin/nmtui"
+    "on-click": "sleep 0.1 && /usr/local/sbin/AmneziaVPN"
   }
 }

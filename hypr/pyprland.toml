@@ -1,4 +1,5 @@
 [pyprland]
 plugins = [
   "expose",
+  "toggle_dpms",
 ]

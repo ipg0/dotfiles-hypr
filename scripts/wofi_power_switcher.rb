@@ -1,4 +1,4 @@
-#!/usr/share/rvm/rubies/ruby-3.1.2/bin/ruby
+#!/bin/ruby
 # frozen_string_literal: true
 
 PROFILES = {

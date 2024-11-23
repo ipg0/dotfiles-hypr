@@ -1,10 +1,7 @@
-#!/usr/share/rvm/rubies/ruby-3.1.2/bin/ruby
+#!/bin/ruby
 # frozen_string_literal: true
 
-require 'json'
+vpn_procs = `ps -e -o ucmd | grep -E 'xray|openvpn|wireguard'`
 
-connections = JSON.parse(`nmcli connection show --active | jc --nmcli`)
-
-active_vpn = connections&.find { |conn| conn['type'] == 'vpn' }
-
-puts "#{active_vpn['name']} 󰖂\n#{active_vpn['name']}" if active_vpn
+puts vpn_procs.empty? ? '' : 'Connected 󰖂'
+# puts "#{active_vpn['name']} 󰖂\n#{active_vpn['name']}" if active_vpn

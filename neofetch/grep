@@ -1,0 +1,1741 @@
++ verbose=on
++ shift
++ [[ -n brew ]]
++ case $1 in
++ shift
++ [[ -n '' ]]
++ [[ on != on ]]
++ get_simple -vv brew
++ [[ -n -vv ]]
+++ type -t get_-vv
++ [[ '' == \f\u\n\c\t\i\o\n ]]
++ shift
++ [[ -n brew ]]
+++ type -t get_brew
++ [[ '' == \f\u\n\c\t\i\o\n ]]
++ shift
++ [[ -n '' ]]
++ (( simple ))
++ get_distro
++ [[ -n '' ]]
++ case $os in
++ [[ -f /bedrock/etc/bedrock-release ]]
++ [[ -f /etc/redstar-release ]]
++ [[ -f /etc/siduction-version ]]
++ [[ -f /etc/mcst_version ]]
++ type -p pveversion
++ type -p lsb_release
++ case $distro_shorthand in
++ lsb_flags=-sd
+++ lsb_release -sd
++ distro='Ubuntu 23.10'
++ [[ Linux version 6.5.0-21-generic (buildd@bos03-amd64-037) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.2.0-4ubuntu3) 13.2.0, GNU ld (GNU Binutils for Ubuntu) 2.41) #21-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb  7 14:17:40 UTC 2024 == *Microsoft* ]]
++ [[ 6.5.0-21-generic == *Microsoft* ]]
++ [[ Linux version 6.5.0-21-generic (buildd@bos03-amd64-037) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.2.0-4ubuntu3) 13.2.0, GNU ld (GNU Binutils for Ubuntu) 2.41) #21-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb  7 14:17:40 UTC 2024 == *chrome-bot* ]]
++ [[ -f /dev/cros_ec ]]
+++ trim_quotes 'Ubuntu 23.10'
+++ trim_output='Ubuntu 23.10'
+++ trim_output='Ubuntu 23.10'
+++ printf %s 'Ubuntu 23.10'
++ distro='Ubuntu 23.10'
++ distro='Ubuntu 23.10'
++ [[ Ubuntu 23.10 == \U\b\u\n\t\u* ]]
++ case $XDG_CONFIG_DIRS in
++ distro='Ubuntu 23.10'
++ [[ -n Ubuntu 23.10 ]]
++ case $os in
++ machine_arch=x86_64
++ [[ on == on ]]
++ distro+=' x86_64'
++ [[ Ubuntu_old == auto ]]
++ get_bold
++ case $ascii_bold in
++ ascii_bold='\e[1m'
++ case $bold in
++ bold='\e[1m'
++ get_distro_ascii
++ case $(trim "$ascii_distro") in
+++ trim Ubuntu_old
+++ set -f
+++ set -- Ubuntu_old
+++ printf '%s\n' Ubuntu_old
+++ set +f
++ set_colors 1 7 3
+++ color 1
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 1
++ c1='[0m[31m\e[1m'
+++ color 7
+++ case $1 in
+++ printf '\e[37m%b' '\e[0m'
++ c2='[37m[0m\e[1m'
+++ color 3
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 3
++ c3='[0m[33m\e[1m'
+++ color ''
+++ case $1 in
+++ printf '\e[38;5;%bm' ''
++ c4='[38;5;m\e[1m'
+++ color ''
+++ case $1 in
+++ printf '\e[38;5;%bm' ''
++ c5='[38;5;m\e[1m'
+++ color ''
+++ case $1 in
+++ printf '\e[38;5;%bm' ''
++ c6='[38;5;m\e[1m'
++ [[ '' != \o\f\f ]]
++ set_text_colors 1 7 3
++ [[ distro == \d\i\s\t\r\o ]]
+++ color 1
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 1
++ title_color='[0m[31m'
++ at_color='\e[0m'
++ underline_color='\e[0m'
+++ color 7
+++ case $1 in
+++ printf '\e[37m%b' '\e[0m'
++ subtitle_color='[37m[0m'
++ colon_color='\e[0m'
++ info_color='\e[0m'
++ (( 1 == 8 ))
++ (( 7 == 8 ))
++ (( 7 == 7 ))
+++ color 1
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 1
++ subtitle_color='[0m[31m'
++ (( 1 == 7 ))
++ [[ distro == \d\i\s\t\r\o ]]
+++ color fg
+++ case $1 in
+++ printf '\e[37m%b' '\e[0m'
++ bar_color_elapsed='[37m[0m'
++ case ${bar_color_total}${1} in
+++ color 7
+++ case $1 in
+++ printf '\e[37m%b' '\e[0m'
++ bar_color_total='[37m[0m'
++ read -rd '' ascii_data
++ [[ distro != distro ]]
++ [[ off == on ]]
++ [[ xterm-kitty != minix ]]
++ [[ off != on ]]
++ trap 'printf "\e[?25h\e[?7h"' EXIT
++ printf '\e[?25l\e[?7l'
+[?25l[?7l+ image_backend
++ [[ ascii != \o\f\f ]]
++ type -p convert
++ case ${image_backend:-off} in
++ print_ascii
++ [[ -f auto ]]
++ [[ auto == \a\s\c\i\i ]]
++ [[ auto == auto ]]
++ :
++ LC_ALL=en_US.UTF-8
++ IFS='
+'
++ read -r line
++ line='                         ./+o+-'
++ line='                         ./+o+-'
++ (( ++lines,31>ascii_len ))
++ ascii_len=31
++ IFS='
+'
++ read -r line
++ line='                 yyyyy- -yyyyyy+'
++ line='                 yyyyy- -yyyyyy+'
++ (( ++lines,32>ascii_len ))
++ ascii_len=32
++ IFS='
+'
++ read -r line
++ line='              ://+//////-yyyyyyo'
++ line='              ://+//////-yyyyyyo'
++ (( ++lines,32>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='          .++ .:/++++++/-.+sss/`'
++ line='          .++ .:/++++++/-.+sss/`'
++ (( ++lines,32>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='        .:++o:  /++++++++/:--:/-'
++ line='        .:++o:  /++++++++/:--:/-'
++ (( ++lines,32>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='       o:+o+:++.`..```.-/oo+++++/'
++ line='       o:+o+:++.`..```.-/oo+++++/'
++ (( ++lines,33>ascii_len ))
++ ascii_len=33
++ IFS='
+'
++ read -r line
++ line='      .:+o:+o/.          `+sssoo+/'
++ line='      .:+o:+o/.          `+sssoo+/'
++ (( ++lines,34>ascii_len ))
++ ascii_len=34
++ IFS='
+'
++ read -r line
++ line=' .++/+:+oo+o:`             /sssooo.'
++ line=' .++/+:+oo+o:`             /sssooo.'
++ (( ++lines,35>ascii_len ))
++ ascii_len=35
++ IFS='
+'
++ read -r line
++ line='/+++//+:`oo+o               /::--:.'
++ line='/+++//+:`oo+o               /::--:.'
++ (( ++lines,35>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='+/+o+++`o++o               ++////.'
++ line='+/+o+++`o++o               ++////.'
++ (( ++lines,34>ascii_len ))
++ IFS='
+'
++ read -r line
++ line=' .++.o+++oo+:`             /dddhhh.'
++ line=' .++.o+++oo+:`             /dddhhh.'
++ (( ++lines,35>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='      .+.o+oo:.          `oddhhhh+'
++ line='      .+.o+oo:.          `oddhhhh+'
++ (( ++lines,34>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='       +.++o+o``-````.:ohdhhhhh+'
++ line='       +.++o+o``-````.:ohdhhhhh+'
++ (( ++lines,32>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='        `:o+++ `ohhhhhhhhyo++os:'
++ line='        `:o+++ `ohhhhhhhhyo++os:'
++ (( ++lines,32>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='          .o:`.syhhhhhhh/.oo++o`'
++ line='          .o:`.syhhhhhhh/.oo++o`'
++ (( ++lines,32>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='              /osyyyyyyo++ooo+++/'
++ line='              /osyyyyyyo++ooo+++/'
++ (( ++lines,33>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='                  ````` +oo+++o:'
++ line='                  ````` +oo+++o:'
++ (( ++lines,32>ascii_len ))
++ IFS='
+'
++ read -r line
++ line='                         `oo++.'
++ line='                         `oo++.'
++ (( ++lines,31>ascii_len ))
++ IFS='
+'
++ read -r line
++ (( lines==1 ))
++ ascii_data='[0m[31m\e[1m                         ./+o+-
+${c2}                 yyyyy- [0m[31m\e[1m-yyyyyy+
+${c2}              ${c2}://+//////[0m[31m\e[1m-yyyyyyo
+${c3}          .++ ${c2}.:/++++++/-[0m[31m\e[1m.+sss/`
+${c3}        .:++o:  ${c2}/++++++++/:--:/-
+${c3}       o:+o+:++.${c2}`..```.-/oo+++++/
+${c3}      .:+o:+o/.${c2}          `+sssoo+/
+${c2} .++/+:${c3}+oo+o:`${c2}             /sssooo.
+${c2}/+++//+:${c3}`oo+o${c2}               /::--:.
+${c2}+/+o+++${c3}`o++o[0m[31m\e[1m               ++////.
+${c2} .++.o+${c3}++oo+:`[0m[31m\e[1m             /dddhhh.
+${c3}      .+.o+oo:.[0m[31m\e[1m          `oddhhhh+
+${c3}       +.++o+o`[0m[31m\e[1m`-````.:ohdhhhhh+
+${c3}        `:o+++ [0m[31m\e[1m`ohhhhhhhhyo++os:
+${c3}          .o:[0m[31m\e[1m`.syhhhhhhh/${c3}.oo++o`
+[0m[31m\e[1m              /osyyyyyyo${c3}++ooo+++/
+[0m[31m\e[1m                  ````` ${c3}+oo+++o:
+${c3}                         `oo++.'
++ ascii_data='[0m[31m\e[1m                         ./+o+-
+[37m[0m\e[1m                 yyyyy- [0m[31m\e[1m-yyyyyy+
+[37m[0m\e[1m              [37m[0m\e[1m://+//////[0m[31m\e[1m-yyyyyyo
+${c3}          .++ [37m[0m\e[1m.:/++++++/-[0m[31m\e[1m.+sss/`
+${c3}        .:++o:  [37m[0m\e[1m/++++++++/:--:/-
+${c3}       o:+o+:++.[37m[0m\e[1m`..```.-/oo+++++/
+${c3}      .:+o:+o/.[37m[0m\e[1m          `+sssoo+/
+[37m[0m\e[1m .++/+:${c3}+oo+o:`[37m[0m\e[1m             /sssooo.
+[37m[0m\e[1m/+++//+:${c3}`oo+o[37m[0m\e[1m               /::--:.
+[37m[0m\e[1m+/+o+++${c3}`o++o[0m[31m\e[1m               ++////.
+[37m[0m\e[1m .++.o+${c3}++oo+:`[0m[31m\e[1m             /dddhhh.
+${c3}      .+.o+oo:.[0m[31m\e[1m          `oddhhhh+
+${c3}       +.++o+o`[0m[31m\e[1m`-````.:ohdhhhhh+
+${c3}        `:o+++ [0m[31m\e[1m`ohhhhhhhhyo++os:
+${c3}          .o:[0m[31m\e[1m`.syhhhhhhh/${c3}.oo++o`
+[0m[31m\e[1m              /osyyyyyyo${c3}++ooo+++/
+[0m[31m\e[1m                  ````` ${c3}+oo+++o:
+${c3}                         `oo++.'
++ ascii_data='[0m[31m\e[1m                         ./+o+-
+[37m[0m\e[1m                 yyyyy- [0m[31m\e[1m-yyyyyy+
+[37m[0m\e[1m              [37m[0m\e[1m://+//////[0m[31m\e[1m-yyyyyyo
+[0m[33m\e[1m          .++ [37m[0m\e[1m.:/++++++/-[0m[31m\e[1m.+sss/`
+[0m[33m\e[1m        .:++o:  [37m[0m\e[1m/++++++++/:--:/-
+[0m[33m\e[1m       o:+o+:++.[37m[0m\e[1m`..```.-/oo+++++/
+[0m[33m\e[1m      .:+o:+o/.[37m[0m\e[1m          `+sssoo+/
+[37m[0m\e[1m .++/+:[0m[33m\e[1m+oo+o:`[37m[0m\e[1m             /sssooo.
+[37m[0m\e[1m/+++//+:[0m[33m\e[1m`oo+o[37m[0m\e[1m               /::--:.
+[37m[0m\e[1m+/+o+++[0m[33m\e[1m`o++o[0m[31m\e[1m               ++////.
+[37m[0m\e[1m .++.o+[0m[33m\e[1m++oo+:`[0m[31m\e[1m             /dddhhh.
+[0m[33m\e[1m      .+.o+oo:.[0m[31m\e[1m          `oddhhhh+
+[0m[33m\e[1m       +.++o+o`[0m[31m\e[1m`-````.:ohdhhhhh+
+[0m[33m\e[1m        `:o+++ [0m[31m\e[1m`ohhhhhhhhyo++os:
+[0m[33m\e[1m          .o:[0m[31m\e[1m`.syhhhhhhh/[0m[33m\e[1m.oo++o`
+[0m[31m\e[1m              /osyyyyyyo[0m[33m\e[1m++ooo+++/
+[0m[31m\e[1m                  ````` [0m[33m\e[1m+oo+++o:
+[0m[33m\e[1m                         `oo++.'
++ ascii_data='[0m[31m\e[1m                         ./+o+-
+[37m[0m\e[1m                 yyyyy- [0m[31m\e[1m-yyyyyy+
+[37m[0m\e[1m              [37m[0m\e[1m://+//////[0m[31m\e[1m-yyyyyyo
+[0m[33m\e[1m          .++ [37m[0m\e[1m.:/++++++/-[0m[31m\e[1m.+sss/`
+[0m[33m\e[1m        .:++o:  [37m[0m\e[1m/++++++++/:--:/-
+[0m[33m\e[1m       o:+o+:++.[37m[0m\e[1m`..```.-/oo+++++/
+[0m[33m\e[1m      .:+o:+o/.[37m[0m\e[1m          `+sssoo+/
+[37m[0m\e[1m .++/+:[0m[33m\e[1m+oo+o:`[37m[0m\e[1m             /sssooo.
+[37m[0m\e[1m/+++//+:[0m[33m\e[1m`oo+o[37m[0m\e[1m               /::--:.
+[37m[0m\e[1m+/+o+++[0m[33m\e[1m`o++o[0m[31m\e[1m               ++////.
+[37m[0m\e[1m .++.o+[0m[33m\e[1m++oo+:`[0m[31m\e[1m             /dddhhh.
+[0m[33m\e[1m      .+.o+oo:.[0m[31m\e[1m          `oddhhhh+
+[0m[33m\e[1m       +.++o+o`[0m[31m\e[1m`-````.:ohdhhhhh+
+[0m[33m\e[1m        `:o+++ [0m[31m\e[1m`ohhhhhhhhyo++os:
+[0m[33m\e[1m          .o:[0m[31m\e[1m`.syhhhhhhh/[0m[33m\e[1m.oo++o`
+[0m[31m\e[1m              /osyyyyyyo[0m[33m\e[1m++ooo+++/
+[0m[31m\e[1m                  ````` [0m[33m\e[1m+oo+++o:
+[0m[33m\e[1m                         `oo++.'
++ ascii_data='[0m[31m\e[1m                         ./+o+-
+[37m[0m\e[1m                 yyyyy- [0m[31m\e[1m-yyyyyy+
+[37m[0m\e[1m              [37m[0m\e[1m://+//////[0m[31m\e[1m-yyyyyyo
+[0m[33m\e[1m          .++ [37m[0m\e[1m.:/++++++/-[0m[31m\e[1m.+sss/`
+[0m[33m\e[1m        .:++o:  [37m[0m\e[1m/++++++++/:--:/-
+[0m[33m\e[1m       o:+o+:++.[37m[0m\e[1m`..```.-/oo+++++/
+[0m[33m\e[1m      .:+o:+o/.[37m[0m\e[1m          `+sssoo+/
+[37m[0m\e[1m .++/+:[0m[33m\e[1m+oo+o:`[37m[0m\e[1m             /sssooo.
+[37m[0m\e[1m/+++//+:[0m[33m\e[1m`oo+o[37m[0m\e[1m               /::--:.
+[37m[0m\e[1m+/+o+++[0m[33m\e[1m`o++o[0m[31m\e[1m               ++////.
+[37m[0m\e[1m .++.o+[0m[33m\e[1m++oo+:`[0m[31m\e[1m             /dddhhh.
+[0m[33m\e[1m      .+.o+oo:.[0m[31m\e[1m          `oddhhhh+
+[0m[33m\e[1m       +.++o+o`[0m[31m\e[1m`-````.:ohdhhhhh+
+[0m[33m\e[1m        `:o+++ [0m[31m\e[1m`ohhhhhhhhyo++os:
+[0m[33m\e[1m          .o:[0m[31m\e[1m`.syhhhhhhh/[0m[33m\e[1m.oo++o`
+[0m[31m\e[1m              /osyyyyyyo[0m[33m\e[1m++ooo+++/
+[0m[31m\e[1m                  ````` [0m[33m\e[1m+oo+++o:
+[0m[33m\e[1m                         `oo++.'
++ ascii_data='[0m[31m\e[1m                         ./+o+-
+[37m[0m\e[1m                 yyyyy- [0m[31m\e[1m-yyyyyy+
+[37m[0m\e[1m              [37m[0m\e[1m://+//////[0m[31m\e[1m-yyyyyyo
+[0m[33m\e[1m          .++ [37m[0m\e[1m.:/++++++/-[0m[31m\e[1m.+sss/`
+[0m[33m\e[1m        .:++o:  [37m[0m\e[1m/++++++++/:--:/-
+[0m[33m\e[1m       o:+o+:++.[37m[0m\e[1m`..```.-/oo+++++/
+[0m[33m\e[1m      .:+o:+o/.[37m[0m\e[1m          `+sssoo+/
+[37m[0m\e[1m .++/+:[0m[33m\e[1m+oo+o:`[37m[0m\e[1m             /sssooo.
+[37m[0m\e[1m/+++//+:[0m[33m\e[1m`oo+o[37m[0m\e[1m               /::--:.
+[37m[0m\e[1m+/+o+++[0m[33m\e[1m`o++o[0m[31m\e[1m               ++////.
+[37m[0m\e[1m .++.o+[0m[33m\e[1m++oo+:`[0m[31m\e[1m             /dddhhh.
+[0m[33m\e[1m      .+.o+oo:.[0m[31m\e[1m          `oddhhhh+
+[0m[33m\e[1m       +.++o+o`[0m[31m\e[1m`-````.:ohdhhhhh+
+[0m[33m\e[1m        `:o+++ [0m[31m\e[1m`ohhhhhhhhyo++os:
+[0m[33m\e[1m          .o:[0m[31m\e[1m`.syhhhhhhh/[0m[33m\e[1m.oo++o`
+[0m[31m\e[1m              /osyyyyyyo[0m[33m\e[1m++ooo+++/
+[0m[31m\e[1m                  ````` [0m[33m\e[1m+oo+++o:
+[0m[33m\e[1m                         `oo++.'
++ (( text_padding=ascii_len+gap ))
++ printf '%b\n' '[0m[31m\e[1m                         ./+o+-
+[37m[0m\e[1m                 yyyyy- [0m[31m\e[1m-yyyyyy+
+[37m[0m\e[1m              [37m[0m\e[1m://+//////[0m[31m\e[1m-yyyyyyo
+[0m[33m\e[1m          .++ [37m[0m\e[1m.:/++++++/-[0m[31m\e[1m.+sss/`
+[0m[33m\e[1m        .:++o:  [37m[0m\e[1m/++++++++/:--:/-
+[0m[33m\e[1m       o:+o+:++.[37m[0m\e[1m`..```.-/oo+++++/
+[0m[33m\e[1m      .:+o:+o/.[37m[0m\e[1m          `+sssoo+/
+[37m[0m\e[1m .++/+:[0m[33m\e[1m+oo+o:`[37m[0m\e[1m             /sssooo.
+[37m[0m\e[1m/+++//+:[0m[33m\e[1m`oo+o[37m[0m\e[1m               /::--:.
+[37m[0m\e[1m+/+o+++[0m[33m\e[1m`o++o[0m[31m\e[1m               ++////.
+[37m[0m\e[1m .++.o+[0m[33m\e[1m++oo+:`[0m[31m\e[1m             /dddhhh.
+[0m[33m\e[1m      .+.o+oo:.[0m[31m\e[1m          `oddhhhh+
+[0m[33m\e[1m       +.++o+o`[0m[31m\e[1m`-````.:ohdhhhhh+
+[0m[33m\e[1m        `:o+++ [0m[31m\e[1m`ohhhhhhhhyo++os:
+[0m[33m\e[1m          .o:[0m[31m\e[1m`.syhhhhhhh/[0m[33m\e[1m.oo++o`
+[0m[31m\e[1m              /osyyyyyyo[0m[33m\e[1m++ooo+++/
+[0m[31m\e[1m                  ````` [0m[33m\e[1m+oo+++o:
+[0m[33m\e[1m                         `oo++.\e[0m'
+[0m[31m[1m                         ./+o+-
+[37m[0m[1m                 yyyyy- [0m[31m[1m-yyyyyy+
+[37m[0m[1m              [37m[0m[1m://+//////[0m[31m[1m-yyyyyyo
+[0m[33m[1m          .++ [37m[0m[1m.:/++++++/-[0m[31m[1m.+sss/`
+[0m[33m[1m        .:++o:  [37m[0m[1m/++++++++/:--:/-
+[0m[33m[1m       o:+o+:++.[37m[0m[1m`..```.-/oo+++++/
+[0m[33m[1m      .:+o:+o/.[37m[0m[1m          `+sssoo+/
+[37m[0m[1m .++/+:[0m[33m[1m+oo+o:`[37m[0m[1m             /sssooo.
+[37m[0m[1m/+++//+:[0m[33m[1m`oo+o[37m[0m[1m               /::--:.
+[37m[0m[1m+/+o+++[0m[33m[1m`o++o[0m[31m[1m               ++////.
+[37m[0m[1m .++.o+[0m[33m[1m++oo+:`[0m[31m[1m             /dddhhh.
+[0m[33m[1m      .+.o+oo:.[0m[31m[1m          `oddhhhh+
+[0m[33m[1m       +.++o+o`[0m[31m[1m`-````.:ohdhhhhh+
+[0m[33m[1m        `:o+++ [0m[31m[1m`ohhhhhhhhyo++os:
+[0m[33m[1m          .o:[0m[31m[1m`.syhhhhhhh/[0m[33m[1m.oo++o`
+[0m[31m[1m              /osyyyyyyo[0m[33m[1m++ooo+++/
+[0m[31m[1m                  ````` [0m[33m[1m+oo+++o:
+[0m[33m[1m                         `oo++.[0m
++ LC_ALL=C
++ [[ ascii != \o\f\f ]]
++ printf '\e[%sA\e[9999999D' 18
+[18A[9999999D+ get_cache_dir
++ case $os in
++ cache_dir=/tmp
++ old_functions
++ print_info
++ info title
++ [[ -n '' ]]
++ unset -v prin
++ get_title
++ user=pyro
++ case $title_fqdn in
++ hostname=prometheus
++ title='[0m[31m\e[1mpyro\e[0m@[0m[31m\e[1mprometheus'
++ length=15
++ [[ -n '' ]]
++ [[ -n '' ]]
+++ trim '[0m[31m\e[1mpyro\e[0m@[0m[31m\e[1mprometheus'
+++ set -f
+++ set -- '[0m[31m\e[1mpyro\e[0m@[0m[31m\e[1mprometheus'
+++ printf '%s\n' '[0m[31m\e[1mpyro\e[0m@[0m[31m\e[1mprometheus'
+++ set +f
++ output='[0m[31m\e[1mpyro\e[0m@[0m[31m\e[1mprometheus'
++ [[ -n '' ]]
++ [[ -n [0m[31m\e[1mpyro\e[0m@[0m[31m\e[1mprometheus ]]
++ prin '[0m[31m\e[1mpyro\e[0m@[0m[31m\e[1mprometheus'
+++ trim '[0m[31m\e[1mpyro\e[0m@[0m[31m\e[1mprometheus'
+++ set -f
+++ set -- '[0m[31m\e[1mpyro\e[0m@[0m[31m\e[1mprometheus'
+++ printf '%s\n' '[0m[31m\e[1mpyro\e[0m@[0m[31m\e[1mprometheus'
+++ set +f
++ [[ -n [0m[31m\e[1mpyro\e[0m@[0m[31m\e[1mprometheus ]]
++ [[ -n '' ]]
++ string='[0m[31m\e[1mpyro\e[0m@[0m[31m\e[1mprometheus'
++ local 'subtitle_color=\e[0m'
+++ trim '[31m\e[1mpyro\e[0m@[31m\e[1mprometheus'
+++ set -f
+++ set -- '[31m\e[1mpyro\e[0m@[31m\e[1mprometheus'
+++ printf '%s\n' '[31m\e[1mpyro\e[0m@[31m\e[1mprometheus'
+++ set +f
++ string='[31m\e[1mpyro\e[0m@[31m\e[1mprometheus'
+++ strip_sequences '[31m\e[1mpyro\e[0m@[31m\e[1mprometheus'
+++ strip='\e[1mpyro\e[0m@\e[1mprometheus'
+++ strip='\e[1mpyro\e[0m@\e[1mprometheus'
+++ strip=pyro@prometheus
+++ strip=pyro@prometheus
+++ strip=pyro@prometheus
+++ strip=pyro@prometheus
+++ printf '%s\n' pyro@prometheus
++ length=pyro@prometheus
++ length=15
++ string='[31m\e[1mpyro\e[0m@[31m\e[1mprometheus'
++ string='\e[0m\e[1m[31m\e[1mpyro\e[0m@[31m\e[1mprometheus'
++ printf '%b\n' '\e[38C\e[0m\e[1m[31m\e[1mpyro\e[0m@[31m\e[1mprometheus\e[0m '
+[38C[0m[1m[31m[1mpyro[0m@[31m[1mprometheus[0m 
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info underline
++ [[ -n '' ]]
++ unset -v prin
++ get_underline
++ [[ on == \o\n ]]
++ printf -v underline %15s
++ printf '%b%b\n' '\e[38C\e[0m' '---------------\e[0m '
+[38C[0m---------------[0m 
++ (( ++info_height ))
++ length=
++ prin=1
++ [[ -n 1 ]]
++ return
++ info OS distro
++ [[ -n distro ]]
++ subtitle=OS
++ unset -v prin
++ get_distro
++ [[ -n Ubuntu 23.10 x86_64 ]]
++ return
++ [[ -n '' ]]
++ [[ -n distro ]]
+++ trim 'Ubuntu 23.10 x86_64'
+++ set -f
+++ set -- Ubuntu 23.10 x86_64
+++ printf '%s\n' 'Ubuntu 23.10 x86_64'
+++ set +f
++ output='Ubuntu 23.10 x86_64'
++ [[ -n distro ]]
++ [[ -n Ubuntu23.10x86_64 ]]
++ prin OS 'Ubuntu 23.10 x86_64'
+++ trim OS
+++ set -f
+++ set -- OS
+++ printf '%s\n' OS
+++ set +f
++ [[ -n OS ]]
++ [[ -n Ubuntu 23.10 x86_64 ]]
++ [[ -n '' ]]
++ string='OS: Ubuntu 23.10 x86_64'
+++ trim 'OS: Ubuntu 23.10 x86_64'
+++ set -f
+++ set -- OS: Ubuntu 23.10 x86_64
+++ printf '%s\n' 'OS: Ubuntu 23.10 x86_64'
+++ set +f
++ string='OS: Ubuntu 23.10 x86_64'
+++ strip_sequences 'OS: Ubuntu 23.10 x86_64'
+++ strip='OS: Ubuntu 23.10 x86_64'
+++ strip='OS: Ubuntu 23.10 x86_64'
+++ strip='OS: Ubuntu 23.10 x86_64'
+++ strip='OS: Ubuntu 23.10 x86_64'
+++ strip='OS: Ubuntu 23.10 x86_64'
+++ strip='OS: Ubuntu 23.10 x86_64'
+++ printf '%s\n' 'OS: Ubuntu 23.10 x86_64'
++ length='OS: Ubuntu 23.10 x86_64'
++ length=23
++ string='OS\e[0m\e[0m:\e[0m Ubuntu 23.10 x86_64'
++ string='[0m[31m\e[1mOS\e[0m\e[0m:\e[0m Ubuntu 23.10 x86_64'
++ printf '%b\n' '\e[38C[0m[31m\e[1mOS\e[0m\e[0m:\e[0m Ubuntu 23.10 x86_64\e[0m '
+[38C[0m[31m[1mOS[0m[0m:[0m Ubuntu 23.10 x86_64[0m 
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Host model
++ [[ -n model ]]
++ subtitle=Host
++ unset -v prin
++ get_model
++ case $os in
++ [[ -d /system/app/ ]]
++ [[ -f /sys/devices/virtual/dmi/id/product_name ]]
++ model='Vostro 14 5410'
++ model+=' '
++ model='Vostro 14 5410 '
++ model='Vostro 14 5410 '
++ model='Vostro 14 5410 '
++ model='Vostro 14 5410 '
++ model='Vostro 14 5410 '
++ model='Vostro 14 5410 '
++ model='Vostro 14 5410 '
++ model='Vostro 14 5410 '
++ model='Vostro 14 5410 '
++ model='Vostro 14 5410 '
++ model='Vostro 14 5410 '
++ model='Vostro 14 5410 '
++ model='Vostro 14 5410 '
++ case $model in
++ [[ -n '' ]]
++ [[ -n model ]]
+++ trim 'Vostro 14 5410 '
+++ set -f
+++ set -- Vostro 14 5410
+++ printf '%s\n' 'Vostro 14 5410'
+++ set +f
++ output='Vostro 14 5410'
++ [[ -n model ]]
++ [[ -n Vostro145410 ]]
++ prin Host 'Vostro 14 5410'
+++ trim Host
+++ set -f
+++ set -- Host
+++ printf '%s\n' Host
+++ set +f
++ [[ -n Host ]]
++ [[ -n Vostro 14 5410 ]]
++ [[ -n '' ]]
++ string='Host: Vostro 14 5410'
+++ trim 'Host: Vostro 14 5410'
+++ set -f
+++ set -- Host: Vostro 14 5410
+++ printf '%s\n' 'Host: Vostro 14 5410'
+++ set +f
++ string='Host: Vostro 14 5410'
+++ strip_sequences 'Host: Vostro 14 5410'
+++ strip='Host: Vostro 14 5410'
+++ strip='Host: Vostro 14 5410'
+++ strip='Host: Vostro 14 5410'
+++ strip='Host: Vostro 14 5410'
+++ strip='Host: Vostro 14 5410'
+++ strip='Host: Vostro 14 5410'
+++ printf '%s\n' 'Host: Vostro 14 5410'
++ length='Host: Vostro 14 5410'
++ length=20
++ string='Host\e[0m\e[0m:\e[0m Vostro 14 5410'
++ string='[0m[31m\e[1mHost\e[0m\e[0m:\e[0m Vostro 14 5410'
++ printf '%b\n' '\e[38C[0m[31m\e[1mHost\e[0m\e[0m:\e[0m Vostro 14 5410\e[0m '
+[38C[0m[31m[1mHost[0m[0m:[0m Vostro 14 5410[0m 
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Kernel kernel
++ [[ -n kernel ]]
++ subtitle=Kernel
++ unset -v prin
++ get_kernel
++ [[ Linux =~ (AIX|IRIX) ]]
++ [[ Linux == Haiku ]]
++ [[ Linux == Windows ]]
++ case $kernel_shorthand in
++ kernel=6.5.0-21-generic
++ [[ Linux =~ (BSD|MINIX) ]]
++ [[ -n '' ]]
++ [[ -n kernel ]]
+++ trim 6.5.0-21-generic
+++ set -f
+++ set -- 6.5.0-21-generic
+++ printf '%s\n' 6.5.0-21-generic
+++ set +f
++ output=6.5.0-21-generic
++ [[ -n kernel ]]
++ [[ -n 6.5.0-21-generic ]]
++ prin Kernel 6.5.0-21-generic
+++ trim Kernel
+++ set -f
+++ set -- Kernel
+++ printf '%s\n' Kernel
+++ set +f
++ [[ -n Kernel ]]
++ [[ -n 6.5.0-21-generic ]]
++ [[ -n '' ]]
++ string='Kernel: 6.5.0-21-generic'
+++ trim 'Kernel: 6.5.0-21-generic'
+++ set -f
+++ set -- Kernel: 6.5.0-21-generic
+++ printf '%s\n' 'Kernel: 6.5.0-21-generic'
+++ set +f
++ string='Kernel: 6.5.0-21-generic'
+++ strip_sequences 'Kernel: 6.5.0-21-generic'
+++ strip='Kernel: 6.5.0-21-generic'
+++ strip='Kernel: 6.5.0-21-generic'
+++ strip='Kernel: 6.5.0-21-generic'
+++ strip='Kernel: 6.5.0-21-generic'
+++ strip='Kernel: 6.5.0-21-generic'
+++ strip='Kernel: 6.5.0-21-generic'
+++ printf '%s\n' 'Kernel: 6.5.0-21-generic'
++ length='Kernel: 6.5.0-21-generic'
++ length=24
++ string='Kernel\e[0m\e[0m:\e[0m 6.5.0-21-generic'
++ string='[0m[31m\e[1mKernel\e[0m\e[0m:\e[0m 6.5.0-21-generic'
++ printf '%b\n' '\e[38C[0m[31m\e[1mKernel\e[0m\e[0m:\e[0m 6.5.0-21-generic\e[0m '
+[38C[0m[31m[1mKernel[0m[0m:[0m 6.5.0-21-generic[0m 
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Uptime uptime
++ [[ -n uptime ]]
++ subtitle=Uptime
++ unset -v prin
++ get_uptime
++ case $os in
++ [[ -r /proc/uptime ]]
++ s='148415.14 1013414.33'
++ s=148415
++ d='1 days'
++ h='17 hours'
++ m='13 mins'
++ (( 1 == 1 ))
++ d='1 day'
++ (( 17 == 1 ))
++ (( 13 == 1 ))
++ (( 1 == 0 ))
++ (( 17 == 0 ))
++ (( 13 == 0 ))
++ uptime='1 day, 17 hours, 13 mins'
++ uptime='1 day, 17 hours, 13 mins'
++ uptime='1 day, 17 hours, 13 mins'
++ case $uptime_shorthand in
++ [[ -n '' ]]
++ [[ -n uptime ]]
+++ trim '1 day, 17 hours, 13 mins'
+++ set -f
+++ set -- 1 day, 17 hours, 13 mins
+++ printf '%s\n' '1 day, 17 hours, 13 mins'
+++ set +f
++ output='1 day, 17 hours, 13 mins'
++ [[ -n uptime ]]
++ [[ -n 1day,17hours,13mins ]]
++ prin Uptime '1 day, 17 hours, 13 mins'
+++ trim Uptime
+++ set -f
+++ set -- Uptime
+++ printf '%s\n' Uptime
+++ set +f
++ [[ -n Uptime ]]
++ [[ -n 1 day, 17 hours, 13 mins ]]
++ [[ -n '' ]]
++ string='Uptime: 1 day, 17 hours, 13 mins'
+++ trim 'Uptime: 1 day, 17 hours, 13 mins'
+++ set -f
+++ set -- Uptime: 1 day, 17 hours, 13 mins
+++ printf '%s\n' 'Uptime: 1 day, 17 hours, 13 mins'
+++ set +f
++ string='Uptime: 1 day, 17 hours, 13 mins'
+++ strip_sequences 'Uptime: 1 day, 17 hours, 13 mins'
+++ strip='Uptime: 1 day, 17 hours, 13 mins'
+++ strip='Uptime: 1 day, 17 hours, 13 mins'
+++ strip='Uptime: 1 day, 17 hours, 13 mins'
+++ strip='Uptime: 1 day, 17 hours, 13 mins'
+++ strip='Uptime: 1 day, 17 hours, 13 mins'
+++ strip='Uptime: 1 day, 17 hours, 13 mins'
+++ printf '%s\n' 'Uptime: 1 day, 17 hours, 13 mins'
++ length='Uptime: 1 day, 17 hours, 13 mins'
++ length=32
++ string='Uptime\e[0m\e[0m:\e[0m 1 day, 17 hours, 13 mins'
++ string='[0m[31m\e[1mUptime\e[0m\e[0m:\e[0m 1 day, 17 hours, 13 mins'
++ printf '%b\n' '\e[38C[0m[31m\e[1mUptime\e[0m\e[0m:\e[0m 1 day, 17 hours, 13 mins\e[0m '
+[38C[0m[31m[1mUptime[0m[0m:[0m 1 day, 17 hours, 13 mins[0m 
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Packages packages
++ [[ -n packages ]]
++ subtitle=Packages
++ unset -v prin
++ get_packages
++ [[ -f /bedrock/etc/bedrock-release ]]
++ case $os in
++ has kiss
++ type -p kiss
++ has pacman-key
++ type -p pacman-key
++ has dpkg
++ type -p dpkg
++ manager=dpkg
++ tot dpkg-query -f '.\n' -W
++ IFS='
+'
++ read -d '' -ra pkgs
+++ dpkg-query -f '.\n' -W
++ (( packages+=3845 ))
++ pac 3845
++ (( 3845 > 0 ))
++ managers+=("$1 (${manager})")
++ manager_string+='dpkg, '
++ has rpm
++ type -p rpm
++ has xbps-query
++ type -p xbps-query
++ has apk
++ type -p apk
++ has opkg
++ type -p opkg
++ has pacman-g2
++ type -p pacman-g2
++ has lvu
++ type -p lvu
++ has tce-status
++ type -p tce-status
++ has pkg_info
++ type -p pkg_info
++ has tazpkg
++ type -p tazpkg
++ has sorcery
++ type -p sorcery
++ has alps
++ type -p alps
++ has butch
++ type -p butch
++ has mine
++ type -p mine
++ shopt -s nullglob
++ has brew
++ type -p brew
++ manager=brew
+++ brew --cellar
++ dir
++ (( packages+=0 ))
++ pac 0
++ (( 0 > 0 ))
++ has emerge
++ type -p emerge
++ has Compile
++ type -p Compile
++ has eopkg
++ type -p eopkg
++ has crew
++ type -p crew
++ has pkgtool
++ type -p pkgtool
++ has scratch
++ type -p scratch
++ has kagami
++ type -p kagami
++ has cave
++ type -p cave
++ shopt -u nullglob
++ has kpm-pkg
++ type -p kpm-pkg
++ has guix
++ type -p guix
++ has nix-store
++ type -p nix-store
++ has pkginfo
++ type -p pkginfo
++ case $kernel_name in
++ has pkg
++ type -p pkg
++ (( packages == 0 ))
++ has flatpak
++ type -p flatpak
++ manager=flatpak
++ tot flatpak list
++ IFS='
+'
++ read -d '' -ra pkgs
+++ flatpak list
++ (( packages+=34 ))
++ pac 34
++ (( 34 > 0 ))
++ managers+=("$1 (${manager})")
++ manager_string+='flatpak, '
++ has spm
++ type -p spm
++ has puyo
++ type -p puyo
++ has snap
++ type -p snap
++ manager=snap
++ ps -e
++ grep -qFm 1 snapd
++ tot snap list
++ IFS='
+'
++ read -d '' -ra pkgs
+++ snap list
++ (( packages+=27 ))
++ pac 27
++ (( 27 > 0 ))
++ managers+=("$1 (${manager})")
++ manager_string+='snap, '
++ (( packages-=1 ))
++ manager=appimage
++ has appimaged
++ type -p appimaged
++ (( packages == 0 ))
++ [[ on == on ]]
++ printf -v packages '%s, ' '3845 (dpkg)' '34 (flatpak)' '27 (snap)'
++ packages='3845 (dpkg), 34 (flatpak), 27 (snap)'
++ packages='3845 (dpkg), 34 (flatpak), 27 (snap)'
++ [[ -n '' ]]
++ [[ -n packages ]]
+++ trim '3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ set -f
+++ set -- 3845 '(dpkg),' 34 '(flatpak),' 27 '(snap)'
+++ printf '%s\n' '3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ set +f
++ output='3845 (dpkg), 34 (flatpak), 27 (snap)'
++ [[ -n packages ]]
++ [[ -n 3845(dpkg),34(flatpak),27(snap) ]]
++ prin Packages '3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ trim Packages
+++ set -f
+++ set -- Packages
+++ printf '%s\n' Packages
+++ set +f
++ [[ -n Packages ]]
++ [[ -n 3845 (dpkg), 34 (flatpak), 27 (snap) ]]
++ [[ -n '' ]]
++ string='Packages: 3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ trim 'Packages: 3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ set -f
+++ set -- Packages: 3845 '(dpkg),' 34 '(flatpak),' 27 '(snap)'
+++ printf '%s\n' 'Packages: 3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ set +f
++ string='Packages: 3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ strip_sequences 'Packages: 3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ strip='Packages: 3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ strip='Packages: 3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ strip='Packages: 3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ strip='Packages: 3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ strip='Packages: 3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ strip='Packages: 3845 (dpkg), 34 (flatpak), 27 (snap)'
+++ printf '%s\n' 'Packages: 3845 (dpkg), 34 (flatpak), 27 (snap)'
++ length='Packages: 3845 (dpkg), 34 (flatpak), 27 (snap)'
++ length=46
++ string='Packages\e[0m\e[0m:\e[0m 3845 (dpkg), 34 (flatpak), 27 (snap)'
++ string='[0m[31m\e[1mPackages\e[0m\e[0m:\e[0m 3845 (dpkg), 34 (flatpak), 27 (snap)'
++ printf '%b\n' '\e[38C[0m[31m\e[1mPackages\e[0m\e[0m:\e[0m 3845 (dpkg), 34 (flatpak), 27 (snap)\e[0m '
+[38C[0m[31m[1mPackages[0m[0m:[0m 3845 (dpkg), 34 (flatpak), 27 (snap)[0m 
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Shell shell
++ [[ -n shell ]]
++ subtitle=Shell
++ unset -v prin
++ get_shell
++ case $shell_path in
++ shell='bash '
++ [[ on != on ]]
++ case ${shell_name:=${SHELL##*/}} in
++ [[ -n 5.2.15(1)-release ]]
++ shell+='5.2.15(1)'
++ shell='bash 5.2.15(1)'
++ shell='bash 5.2.15(1)'
++ shell='bash 5.2.15(1)'
++ shell='bash 5.2.15'
++ [[ -n '' ]]
++ [[ -n shell ]]
+++ trim 'bash 5.2.15'
+++ set -f
+++ set -- bash 5.2.15
+++ printf '%s\n' 'bash 5.2.15'
+++ set +f
++ output='bash 5.2.15'
++ [[ -n shell ]]
++ [[ -n bash5.2.15 ]]
++ prin Shell 'bash 5.2.15'
+++ trim Shell
+++ set -f
+++ set -- Shell
+++ printf '%s\n' Shell
+++ set +f
++ [[ -n Shell ]]
++ [[ -n bash 5.2.15 ]]
++ [[ -n '' ]]
++ string='Shell: bash 5.2.15'
+++ trim 'Shell: bash 5.2.15'
+++ set -f
+++ set -- Shell: bash 5.2.15
+++ printf '%s\n' 'Shell: bash 5.2.15'
+++ set +f
++ string='Shell: bash 5.2.15'
+++ strip_sequences 'Shell: bash 5.2.15'
+++ strip='Shell: bash 5.2.15'
+++ strip='Shell: bash 5.2.15'
+++ strip='Shell: bash 5.2.15'
+++ strip='Shell: bash 5.2.15'
+++ strip='Shell: bash 5.2.15'
+++ strip='Shell: bash 5.2.15'
+++ printf '%s\n' 'Shell: bash 5.2.15'
++ length='Shell: bash 5.2.15'
++ length=18
++ string='Shell\e[0m\e[0m:\e[0m bash 5.2.15'
++ string='[0m[31m\e[1mShell\e[0m\e[0m:\e[0m bash 5.2.15'
++ printf '%b\n' '\e[38C[0m[31m\e[1mShell\e[0m\e[0m:\e[0m bash 5.2.15\e[0m '
+[38C[0m[31m[1mShell[0m[0m:[0m bash 5.2.15[0m 
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Resolution resolution
++ [[ -n resolution ]]
++ subtitle=Resolution
++ unset -v prin
++ get_resolution
++ case $os in
++ type -p xrandr
++ [[ -n :0 ]]
++ [[ -z wayland-1 ]]
++ type -p xwininfo
++ [[ -n :0 ]]
++ [[ -z wayland-1 ]]
++ type -p xdpyinfo
++ [[ -n :0 ]]
++ [[ -z wayland-1 ]]
++ [[ -d /sys/class/drm ]]
++ for dev in /sys/class/drm/*/modes
++ read -r resolution _
++ [[ -n 1920x1080 ]]
++ break
++ resolution=1920x1080
++ [[ -z 19201080 ]]
++ [[ -n '' ]]
++ [[ -n resolution ]]
+++ trim 1920x1080
+++ set -f
+++ set -- 1920x1080
+++ printf '%s\n' 1920x1080
+++ set +f
++ output=1920x1080
++ [[ -n resolution ]]
++ [[ -n 1920x1080 ]]
++ prin Resolution 1920x1080
+++ trim Resolution
+++ set -f
+++ set -- Resolution
+++ printf '%s\n' Resolution
+++ set +f
++ [[ -n Resolution ]]
++ [[ -n 1920x1080 ]]
++ [[ -n '' ]]
++ string='Resolution: 1920x1080'
+++ trim 'Resolution: 1920x1080'
+++ set -f
+++ set -- Resolution: 1920x1080
+++ printf '%s\n' 'Resolution: 1920x1080'
+++ set +f
++ string='Resolution: 1920x1080'
+++ strip_sequences 'Resolution: 1920x1080'
+++ strip='Resolution: 1920x1080'
+++ strip='Resolution: 1920x1080'
+++ strip='Resolution: 1920x1080'
+++ strip='Resolution: 1920x1080'
+++ strip='Resolution: 1920x1080'
+++ strip='Resolution: 1920x1080'
+++ printf '%s\n' 'Resolution: 1920x1080'
++ length='Resolution: 1920x1080'
++ length=21
++ string='Resolution\e[0m\e[0m:\e[0m 1920x1080'
++ string='[0m[31m\e[1mResolution\e[0m\e[0m:\e[0m 1920x1080'
++ printf '%b\n' '\e[38C[0m[31m\e[1mResolution\e[0m\e[0m:\e[0m 1920x1080\e[0m '
+[38C[0m[31m[1mResolution[0m[0m:[0m 1920x1080[0m 
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info DE de
++ [[ -n de ]]
++ subtitle=DE
++ unset -v prin
++ get_de
++ (( de_run == 1 ))
++ case $os in
++ (( wm_run != 1 ))
++ get_wm
++ (( wm_run == 1 ))
++ case $kernel_name in
++ ps_flags=(-e)
++ [[ -n wayland-1 ]]
+++ ps -e
+++ grep -m 1 -o -F -e arcan -e asc -e clayland -e dwc -e fireplace -e gnome-shell -e greenfield -e grefsen -e kwin -e lipstick -e maynard -e mazecompositor -e motorcar -e orbital -e orbment -e perceptia -e rustland -e sway -e ulubis -e velox -e wavy -e way-cooler -e wayfire -e wayhouse -e westeros -e westford -e weston
++ wm=sway
++ [[ sway == *WINDOWMAKER* ]]
++ [[ sway == *GNOME*Shell* ]]
++ wm_run=1
++ [[ hyprland == regolith ]]
++ [[ -n Hyprland ]]
++ de=Hyprland
++ de=Hyprland
++ de=Hyprland
++ [[ Hyprland == \s\w\a\y ]]
++ [[ -n :0 ]]
++ [[ -z Hyprland ]]
++ case $de in
++ (( 0 >= 4 ))
++ [[ on == on ]]
++ [[ -n Hyprland ]]
++ case $de in
++ de_ver=
++ de_ver=
++ de_ver=
++ de_ver=
++ de_ver=
++ de_ver=
++ de_ver=
++ de='Hyprland '
++ de_run=1
++ [[ -n '' ]]
++ [[ -n de ]]
+++ trim 'Hyprland '
+++ set -f
+++ set -- Hyprland
+++ printf '%s\n' Hyprland
+++ set +f
++ output=Hyprland
++ [[ -n de ]]
++ [[ -n Hyprland ]]
++ prin DE Hyprland
+++ trim DE
+++ set -f
+++ set -- DE
+++ printf '%s\n' DE
+++ set +f
++ [[ -n DE ]]
++ [[ -n Hyprland ]]
++ [[ -n '' ]]
++ string='DE: Hyprland'
+++ trim 'DE: Hyprland'
+++ set -f
+++ set -- DE: Hyprland
+++ printf '%s\n' 'DE: Hyprland'
+++ set +f
++ string='DE: Hyprland'
+++ strip_sequences 'DE: Hyprland'
+++ strip='DE: Hyprland'
+++ strip='DE: Hyprland'
+++ strip='DE: Hyprland'
+++ strip='DE: Hyprland'
+++ strip='DE: Hyprland'
+++ strip='DE: Hyprland'
+++ printf '%s\n' 'DE: Hyprland'
++ length='DE: Hyprland'
++ length=12
++ string='DE\e[0m\e[0m:\e[0m Hyprland'
++ string='[0m[31m\e[1mDE\e[0m\e[0m:\e[0m Hyprland'
++ printf '%b\n' '\e[38C[0m[31m\e[1mDE\e[0m\e[0m:\e[0m Hyprland\e[0m '
+[38C[0m[31m[1mDE[0m[0m:[0m Hyprland[0m 
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info Terminal term
++ [[ -n term ]]
++ subtitle=Terminal
++ unset -v prin
++ get_term
++ (( term_run == 1 ))
++ case $TERM_PROGRAM in
++ term=
++ [[ xterm-kitty == \t\w\5\2 ]]
++ [[ xterm-kitty == \t\w\1\0\0 ]]
++ [[ -n '' ]]
++ [[ -n '' ]]
++ [[ -z '' ]]
+++ get_ppid ''
+++ case $os in
++++ grep -i -F PPid: /proc/3820404/status
+++ ppid='PPid:	3820357'
++++ trim '	3820357'
++++ set -f
++++ set -- 3820357
++++ printf '%s\n' 3820357
++++ set +f
+++ ppid=3820357
+++ printf %s 3820357
++ parent=3820357
++ [[ -z 3820357 ]]
+++ get_process_name 3820357
+++ case $os in
+++ name=kitty
+++ printf %s kitty
++ name=kitty
++ case ${name// } in
++ [[ Linux == Linux ]]
+++ realpath /proc/3820357/exe
++ term=/usr/bin/kitty
++ term=kitty
++ [[ kitty == .*-wrapped ]]
++ [[ -z kitty ]]
++ term_run=1
++ [[ -n '' ]]
++ [[ -n term ]]
+++ trim kitty
+++ set -f
+++ set -- kitty
+++ printf '%s\n' kitty
+++ set +f
++ output=kitty
++ [[ -n term ]]
++ [[ -n kitty ]]
++ prin Terminal kitty
+++ trim Terminal
+++ set -f
+++ set -- Terminal
+++ printf '%s\n' Terminal
+++ set +f
++ [[ -n Terminal ]]
++ [[ -n kitty ]]
++ [[ -n '' ]]
++ string='Terminal: kitty'
+++ trim 'Terminal: kitty'
+++ set -f
+++ set -- Terminal: kitty
+++ printf '%s\n' 'Terminal: kitty'
+++ set +f
++ string='Terminal: kitty'
+++ strip_sequences 'Terminal: kitty'
+++ strip='Terminal: kitty'
+++ strip='Terminal: kitty'
+++ strip='Terminal: kitty'
+++ strip='Terminal: kitty'
+++ strip='Terminal: kitty'
+++ strip='Terminal: kitty'
+++ printf '%s\n' 'Terminal: kitty'
++ length='Terminal: kitty'
++ length=15
++ string='Terminal\e[0m\e[0m:\e[0m kitty'
++ string='[0m[31m\e[1mTerminal\e[0m\e[0m:\e[0m kitty'
++ printf '%b\n' '\e[38C[0m[31m\e[1mTerminal\e[0m\e[0m:\e[0m kitty\e[0m '
+[38C[0m[31m[1mTerminal[0m[0m:[0m kitty[0m 
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info 'Terminal Font' term_font
++ [[ -n term_font ]]
++ subtitle='Terminal Font'
++ unset -v prin
++ get_term_font
++ (( term_run != 1 ))
++ case $term in
+++ kitty --debug-config
+Unknown option: --debug-config
++ kitty_config=
++ [[ '' != *font_family* ]]
++ return
++ [[ -n '' ]]
++ [[ -n term_font ]]
+++ trim ''
+++ set -f
+++ set --
+++ printf '%s\n' ''
+++ set +f
++ output=
++ [[ -n term_font ]]
++ [[ -n '' ]]
++ [[ -n '' ]]
++ err 'Info: Couldn'\''t detect Terminal Font.'
+++ color 1
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 1
++ err+='[0m[31m[!]\e[0m Info: Couldn'\''t detect Terminal Font.
+'
++ unset -v subtitle
++ info CPU cpu
++ [[ -n cpu ]]
++ subtitle=CPU
++ unset -v prin
++ get_cpu
++ case $os in
++ cpu_file=/proc/cpuinfo
++ case $kernel_machine in
+++ awk -F '\\s*: | @' '/model name|Hardware|Processor|^cpu model|chip type|^cpu type/ {
+                            cpu=$2; if ($1 == "Hardware") exit } END { print cpu }' /proc/cpuinfo
++ cpu='11th Gen Intel(R) Core(TM) i7-11390H'
++ speed_dir=/sys/devices/system/cpu/cpu0/cpufreq
++ for temp_dir in /sys/class/hwmon/*
++ [[ AC =~ (coretemp|fam15h_power|k10temp) ]]
++ for temp_dir in /sys/class/hwmon/*
++ [[ BAT0 =~ (coretemp|fam15h_power|k10temp) ]]
++ for temp_dir in /sys/class/hwmon/*
++ [[ nvme =~ (coretemp|fam15h_power|k10temp) ]]
++ for temp_dir in /sys/class/hwmon/*
++ [[ ucsi_source_psy_USBC000:001 =~ (coretemp|fam15h_power|k10temp) ]]
++ for temp_dir in /sys/class/hwmon/*
++ [[ iwlwifi_1 =~ (coretemp|fam15h_power|k10temp) ]]
++ for temp_dir in /sys/class/hwmon/*
++ [[ coretemp =~ (coretemp|fam15h_power|k10temp) ]]
++ temp_dirs=("$temp_dir"/temp*_input)
++ temp_dir=/sys/class/hwmon/hwmon5/temp1_input
++ break
++ [[ -d /sys/devices/system/cpu/cpu0/cpufreq ]]
+/bin/neofetch: line 2110: /sys/devices/system/cpu/cpu0/cpufreq/bios_limit: No such file or directory
++ speed=
+/bin/neofetch: line 2111: /sys/devices/system/cpu/cpu0/cpufreq/bios_limit: No such file or directory
++ speed=
++ speed=5000000
++ speed=5000
++ [[ -f /sys/class/hwmon/hwmon5/temp1_input ]]
++ deg=860
++ case $cpu_cores in
+++ grep -c '^processor' /proc/cpuinfo
++ cores=8
++ cpu='11th Gen Intel(R) Core i7-11390H'
++ cpu='11th Gen Intel(R) Core i7-11390H'
++ cpu='11th Gen Intel Core i7-11390H'
++ cpu='11th Gen Intel Core i7-11390H'
++ cpu='11th Gen Intel Core i7-11390H'
++ cpu='11th Gen Intel Core i7-11390H'
++ cpu='11th Gen Intel Core i7-11390H'
++ cpu='11th Gen Intel Core i7-11390H'
++ cpu='11th Gen Intel Core i7-11390H'
++ cpu='11th Gen Intel Core i7-11390H'
++ cpu='11th Gen Intel Core i7-11390H'
++ cpu='11th Gen Intel Core i7-11390H'
++ cpu='11th Gen Intel Core i7-11390H'
++ cpu='11th Gen Intel  i7-11390H'
++ cpu='11th Gen Intel  i7-11390H'
++ cpu='11th Gen Intel  i7-11390H'
++ cpu='11th Gen Intel  i7-11390H'
++ cpu='11th Gen Intel  i7-11390H'
++ cpu='11th Gen Intel  i7-11390H'
++ cpu='11th Gen Intel  i7-11390H'
++ cpu='11th Gen Intel  i7-11390H'
++ cores=8
++ speed=5000
++ [[ on == \o\f\f ]]
++ [[ logical != \o\f\f ]]
++ [[ -n 8 ]]
++ case $os in
++ cpu='11th Gen Intel  i7-11390H (8)'
++ [[ on != \o\f\f ]]
++ [[ -n 5000 ]]
++ ((  speed < 1000  ))
++ [[ off == \o\n ]]
++ speed=5.000
++ cpu='11th Gen Intel  i7-11390H (8) @ 5.000GHz'
++ [[ off != \o\f\f ]]
++ [[ -n '' ]]
++ [[ -n cpu ]]
+++ trim '11th Gen Intel  i7-11390H (8) @ 5.000GHz'
+++ set -f
+++ set -- 11th Gen Intel i7-11390H '(8)' @ 5.000GHz
+++ printf '%s\n' '11th Gen Intel i7-11390H (8) @ 5.000GHz'
+++ set +f
++ output='11th Gen Intel i7-11390H (8) @ 5.000GHz'
++ [[ -n cpu ]]
++ [[ -n 11thGenInteli7-11390H(8)@5.000GHz ]]
++ prin CPU '11th Gen Intel i7-11390H (8) @ 5.000GHz'
+++ trim CPU
+++ set -f
+++ set -- CPU
+++ printf '%s\n' CPU
+++ set +f
++ [[ -n CPU ]]
++ [[ -n 11th Gen Intel i7-11390H (8) @ 5.000GHz ]]
++ [[ -n '' ]]
++ string='CPU: 11th Gen Intel i7-11390H (8) @ 5.000GHz'
+++ trim 'CPU: 11th Gen Intel i7-11390H (8) @ 5.000GHz'
+++ set -f
+++ set -- CPU: 11th Gen Intel i7-11390H '(8)' @ 5.000GHz
+++ printf '%s\n' 'CPU: 11th Gen Intel i7-11390H (8) @ 5.000GHz'
+++ set +f
++ string='CPU: 11th Gen Intel i7-11390H (8) @ 5.000GHz'
+++ strip_sequences 'CPU: 11th Gen Intel i7-11390H (8) @ 5.000GHz'
+++ strip='CPU: 11th Gen Intel i7-11390H (8) @ 5.000GHz'
+++ strip='CPU: 11th Gen Intel i7-11390H (8) @ 5.000GHz'
+++ strip='CPU: 11th Gen Intel i7-11390H (8) @ 5.000GHz'
+++ strip='CPU: 11th Gen Intel i7-11390H (8) @ 5.000GHz'
+++ strip='CPU: 11th Gen Intel i7-11390H (8) @ 5.000GHz'
+++ strip='CPU: 11th Gen Intel i7-11390H (8) @ 5.000GHz'
+++ printf '%s\n' 'CPU: 11th Gen Intel i7-11390H (8) @ 5.000GHz'
++ length='CPU: 11th Gen Intel i7-11390H (8) @ 5.000GHz'
++ length=44
++ string='CPU\e[0m\e[0m:\e[0m 11th Gen Intel i7-11390H (8) @ 5.000GHz'
++ string='[0m[31m\e[1mCPU\e[0m\e[0m:\e[0m 11th Gen Intel i7-11390H (8) @ 5.000GHz'
++ printf '%b\n' '\e[38C[0m[31m\e[1mCPU\e[0m\e[0m:\e[0m 11th Gen Intel i7-11390H (8) @ 5.000GHz\e[0m '
+[38C[0m[31m[1mCPU[0m[0m:[0m 11th Gen Intel i7-11390H (8) @ 5.000GHz[0m 
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info GPU gpu
++ [[ -n gpu ]]
++ subtitle=GPU
++ unset -v prin
++ get_gpu
++ case $os in
+++ lspci -mm
+++ awk -F '\"|\" \"|\\(' '/"Display|"3D|"VGA/ {a[$0] = $1 " " $3 " " $4}
+                                           END {for(i in a) {if(!seen[a[i]]++) print a[i]}}'
++ gpu_cmd='00:02.0  Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics]'
++ IFS='
+'
++ read -d '' -ra gpus
++ [[ 00:02.0  Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] == *Intel* ]]
++ [[ '' == *Intel* ]]
++ for gpu in "${gpus[@]}"
++ [[ all == \d\e\d\i\c\a\t\e\d ]]
++ [[ all == \i\n\t\e\g\r\a\t\e\d ]]
++ case $gpu in
++ gpu='Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics]'
++ gpu='Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics]'
++ gpu='Intel  TigerLake-LP GT2 [Iris Xe Graphics]'
++ gpu='Intel  TigerLake-LP GT2 [Iris Xe Graphics]'
++ gpu='Intel  TigerLake-LP GT2 [Iris Xe Graphics]'
++ gpu='Intel  TigerLake-LP GT2 [Iris Xe Graphics]'
+++ trim 'Intel  TigerLake-LP GT2 [Iris Xe Graphics]'
+++ set -f
+++ set -- Intel TigerLake-LP GT2 '[Iris' Xe 'Graphics]'
+++ printf '%s\n' 'Intel TigerLake-LP GT2 [Iris Xe Graphics]'
+++ set +f
++ [[ -z Intel TigerLake-LP GT2 [Iris Xe Graphics] ]]
++ [[ on == \o\f\f ]]
++ prin GPU 'Intel  TigerLake-LP GT2 [Iris Xe Graphics]'
+++ trim GPU
+++ set -f
+++ set -- GPU
+++ printf '%s\n' GPU
+++ set +f
++ [[ -n GPU ]]
++ [[ -n Intel  TigerLake-LP GT2 [Iris Xe Graphics] ]]
++ [[ -n '' ]]
++ string='GPU: Intel  TigerLake-LP GT2 [Iris Xe Graphics]'
+++ trim 'GPU: Intel  TigerLake-LP GT2 [Iris Xe Graphics]'
+++ set -f
+++ set -- GPU: Intel TigerLake-LP GT2 '[Iris' Xe 'Graphics]'
+++ printf '%s\n' 'GPU: Intel TigerLake-LP GT2 [Iris Xe Graphics]'
+++ set +f
++ string='GPU: Intel TigerLake-LP GT2 [Iris Xe Graphics]'
+++ strip_sequences 'GPU: Intel TigerLake-LP GT2 [Iris Xe Graphics]'
+++ strip='GPU: Intel TigerLake-LP GT2 [Iris Xe Graphics]'
+++ strip='GPU: Intel TigerLake-LP GT2 [Iris Xe Graphics]'
+++ strip='GPU: Intel TigerLake-LP GT2 [Iris Xe Graphics]'
+++ strip='GPU: Intel TigerLake-LP GT2 [Iris Xe Graphics]'
+++ strip='GPU: Intel TigerLake-LP GT2 [Iris Xe Graphics]'
+++ strip='GPU: Intel TigerLake-LP GT2 [Iris Xe Graphics]'
+++ printf '%s\n' 'GPU: Intel TigerLake-LP GT2 [Iris Xe Graphics]'
++ length='GPU: Intel TigerLake-LP GT2 [Iris Xe Graphics]'
++ length=46
++ string='GPU\e[0m\e[0m:\e[0m Intel TigerLake-LP GT2 [Iris Xe Graphics]'
++ string='[0m[31m\e[1mGPU\e[0m\e[0m:\e[0m Intel TigerLake-LP GT2 [Iris Xe Graphics]'
++ printf '%b\n' '\e[38C[0m[31m\e[1mGPU\e[0m\e[0m:\e[0m Intel TigerLake-LP GT2 [Iris Xe Graphics]\e[0m '
+[38C[0m[31m[1mGPU[0m[0m:[0m Intel TigerLake-LP GT2 [Iris Xe Graphics][0m 
++ (( ++info_height ))
++ prin=1
++ return
++ [[ -n 1 ]]
++ return
++ info Memory memory
++ [[ -n memory ]]
++ subtitle=Memory
++ unset -v prin
++ get_memory
++ case $os in
++ IFS=:
++ read -r a b
++ case $a in
++ (( mem_used+=       16105472  ))
++ mem_total='       16105472 '
++ IFS=:
++ read -r a b
++ case $a in
++ mem_used=14913740
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ mem_used=12181120
++ IFS=:
++ read -r a b
++ case $a in
++ mem_used=6240124
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ (( mem_used+=           1129744  ))
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ mem_used=5011140
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ case $a in
++ IFS=:
++ read -r a b
++ mem_used=4893
++ mem_total=15728
++ [[ off == \o\n ]]
++ case $memory_unit in
++ memory='4893MiB / 15728MiB '
++ case $memory_display in
++ [[ -n '' ]]
++ [[ -n memory ]]
+++ trim '4893MiB / 15728MiB '
+++ set -f
+++ set -- 4893MiB / 15728MiB
+++ printf '%s\n' '4893MiB / 15728MiB'
+++ set +f
++ output='4893MiB / 15728MiB'
++ [[ -n memory ]]
++ [[ -n 4893MiB/15728MiB ]]
++ prin Memory '4893MiB / 15728MiB'
+++ trim Memory
+++ set -f
+++ set -- Memory
+++ printf '%s\n' Memory
+++ set +f
++ [[ -n Memory ]]
++ [[ -n 4893MiB / 15728MiB ]]
++ [[ -n '' ]]
++ string='Memory: 4893MiB / 15728MiB'
+++ trim 'Memory: 4893MiB / 15728MiB'
+++ set -f
+++ set -- Memory: 4893MiB / 15728MiB
+++ printf '%s\n' 'Memory: 4893MiB / 15728MiB'
+++ set +f
++ string='Memory: 4893MiB / 15728MiB'
+++ strip_sequences 'Memory: 4893MiB / 15728MiB'
+++ strip='Memory: 4893MiB / 15728MiB'
+++ strip='Memory: 4893MiB / 15728MiB'
+++ strip='Memory: 4893MiB / 15728MiB'
+++ strip='Memory: 4893MiB / 15728MiB'
+++ strip='Memory: 4893MiB / 15728MiB'
+++ strip='Memory: 4893MiB / 15728MiB'
+++ printf '%s\n' 'Memory: 4893MiB / 15728MiB'
++ length='Memory: 4893MiB / 15728MiB'
++ length=26
++ string='Memory\e[0m\e[0m:\e[0m 4893MiB / 15728MiB'
++ string='[0m[31m\e[1mMemory\e[0m\e[0m:\e[0m 4893MiB / 15728MiB'
++ printf '%b\n' '\e[38C[0m[31m\e[1mMemory\e[0m\e[0m:\e[0m 4893MiB / 15728MiB\e[0m '
+[38C[0m[31m[1mMemory[0m[0m:[0m 4893MiB / 15728MiB[0m 
++ (( ++info_height ))
++ prin=1
++ unset -v subtitle
++ info cols
++ [[ -n '' ]]
++ unset -v prin
++ get_cols
++ local blocks blocks2 cols
++ [[ on == \o\n ]]
++ printf -v block_width %3s
++ (( block_range[0] ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '' 0 0 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   ' 1 1 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   [31m[41m   ' 2 2 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   [31m[41m   [32m[42m   ' 3 3 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   [31m[41m   [32m[42m   [33m[43m   ' 4 4 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   ' 5 5 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   ' 6 6 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks '%b\e[3%bm\e[4%bm%b' '[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   ' 7 7 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '' 8 8 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   ' 9 9 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   ' 10 10 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   ' 11 11 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   ' 12 12 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   ' 13 13 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   ' 14 14 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ case ${block_range[0]} in
++ printf -v blocks2 '%b\e[38;5;%bm\e[48;5;%bm%b' '[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   ' 15 15 '   '
++ (( block_range[0]++ ))
++ (( block_range[0]<=block_range[1] ))
++ printf -v block_spaces %1s
++ [[ -n [30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m    ]]
++ cols+='[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [mnl'
++ [[ -n [38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m    ]]
++ cols+='[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [mnl'
++ cols='[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [mnl[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m'
++ cols='[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
+[38C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m'
++ (( info_height+=block_range[1]>7?block_height+3:block_height+2 ))
++ case $col_offset in
++ printf '\n\e[%bC%b\n\n' 38 '[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
+[38C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m'
+
+[38C[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
+[38C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m
+
++ unset -v blocks blocks2 cols
++ prin=1
++ [[ -n 1 ]]
++ return
++ dynamic_prompt
++ [[ ascii == \o\f\f ]]
++ [[ ascii != \a\s\c\i\i ]]
++ [[ ascii == \w\3\m ]]
++ (( lines=lines>info_height?lines-info_height+1:1 ))
++ printf -v nlines %1s
++ printf %b '\n'
+
++ [[ ascii == *w3m* ]]
++ err 'Neofetch command: /bin/neofetch -vv brew'
+++ color 1
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 1
++ err+='[0m[31m[!]\e[0m Neofetch command: /bin/neofetch -vv brew
+'
++ err 'Neofetch version: 7.1.0'
+++ color 1
+++ case $1 in
+++ printf '%b\e[3%sm' '\e[0m' 1
++ err+='[0m[31m[!]\e[0m Neofetch version: 7.1.0
+'
++ [[ on == on ]]
++ printf %b '[0m[31m[!]\e[0m Config: Sourced user config.    (/home/pyro/.config/neofetch/config.conf)
+[0m[31m[!]\e[0m Info: Couldn'\''t detect Terminal Font.
+[0m[31m[!]\e[0m Neofetch command: /bin/neofetch -vv brew
+[0m[31m[!]\e[0m Neofetch version: 7.1.0
+'
+[0m[31m[!][0m Config: Sourced user config.    (/home/pyro/.config/neofetch/config.conf)
+[0m[31m[!][0m Info: Couldn't detect Terminal Font.
+[0m[31m[!][0m Neofetch command: /bin/neofetch -vv brew
+[0m[31m[!][0m Neofetch version: 7.1.0
++ [[ off == on ]]
++ return 0
++ printf '\e[?25h\e[?7h'
+[?25h[?7h

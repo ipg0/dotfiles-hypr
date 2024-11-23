@@ -48,10 +48,10 @@ alias docker-compose='docker compose'
 zoxide init fish | source
 
 # batcat
-alias cat="batcat"
+alias cat="bat"
 alias pcat="cat -pp"
 set --export MANROFFOPT -c
-set --export MANPAGER "sh -c 'col -bx | batcat -l man -p'"
+set --export MANPAGER "sh -c 'col -bx | bat -l man -p'"
 set --export BAT_THEME base16
 
 # because I am an extension junkie, a VSCode fanboy and a masochist
@@ -60,6 +60,9 @@ set --export EDITOR code
 # cd through Zoxide using Yazi
 # because why not
 alias cx="z (yazi --chooser-file=/dev/stdout | while read; echo; end;)"
+
+# cd to current directory's actual location
+alias cl="cd (readlink -f .)"
 
 # since the default option for rm is to drop the fucking nukes
 alias "fuck-off-and-rm"="/bin/rm"
