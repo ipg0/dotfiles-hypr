@@ -75,7 +75,7 @@ window#waybar > * {
 
 /* block ends */
 #custom-notification,
-#language {
+#custom-rotation {
   padding-right: 20px;
   margin-right: 10px;
   border-radius: 0 20px 20px 0;
@@ -94,7 +94,8 @@ window#waybar > * {
 #battery,
 #clock,
 #custom-sharing,
-#disk {
+#disk,
+#language {
   background-color: #1b1b1b;
 }
 

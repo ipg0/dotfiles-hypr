@@ -24,7 +24,7 @@ directory="$2"
 save="$3"
 path="$4"
 out="$5"
-cmd="/home/pyro/.cargo/bin/yazi"
+cmd="/usr/bin/yazi"
 termcmd="/usr/bin/kitty"
 
 # because it breaks, for some weird reasons
@@ -32,9 +32,9 @@ touch /tmp/termfilechooser.portal
 
 if [ "$save" = "1" ]; then
 	/usr/bin/touch "$path"
-  /usr/bin/kitty -- /bin/fish -c "/home/pyro/.cargo/bin/yazi --chooser-file=\"$out\"" "$path"
+  /usr/bin/kitty -- /bin/fish -c "/usr/bin/yazi --chooser-file=\"$out\"" "$path"
 else
-  /usr/bin/kitty -- /bin/fish -c "/home/pyro/.cargo/bin/yazi --chooser-file=\"$out\""
+  /usr/bin/kitty -- /bin/fish -c "/usr/bin/yazi --chooser-file=\"$out\""
 fi
 
 # if [ "$save" = "1" ]; then

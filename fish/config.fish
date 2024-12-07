@@ -18,9 +18,6 @@ set -g __fish_git_prompt_char_upstream_diverged ' ⇄ '
 set -g __fish_git_prompt_char_upstream_equal ' = '
 set -g __fish_git_prompt_char_upstream_prefix ''''
 
-# brew
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
 # rvm
 rvm default &>/dev/null
 
@@ -85,15 +82,6 @@ source $HOME/.venv/bin/activate.fish
 # a minor version breaks this package
 
 # thefuck --alias | source
-
-# brew completions
-if test -d (brew --prefix)"/share/fish/completions"
-    set -p fish_complete_path (brew --prefix)/share/fish/completions
-end
-
-if test -d (brew --prefix)"/share/fish/vendor_completions.d"
-    set -p fish_complete_path (brew --prefix)/share/fish/vendor_completions.d
-end
 
 # some crutch for work, I don't remember why it's here
 set --export GOPATH /home/pyro/go

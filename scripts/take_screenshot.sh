@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE=$(xdg-user-dir PICTURES)/Screenshots/$(date +'Screenshot-%Y-%m-%d-%H%M%S.png')
+FILE=~/Pictures/Screenshots/$(date +'Screenshot-%Y-%m-%d-%H%M%S.png')
 BUFFER=~/.tmp/slurp.buffer
 
 slurp -b 9d37fc66 -c 00000000 > $BUFFER

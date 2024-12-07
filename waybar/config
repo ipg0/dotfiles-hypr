@@ -11,7 +11,8 @@
     "custom/audiosource",
     "backlight",
     "custom/sharing",
-    "hyprland/language", // block end
+    "hyprland/language",
+    "custom/rotation", // block end
 
     "hyprland/workspaces" // sep blocks
   ],
@@ -98,7 +99,7 @@
   },
 
   "cpu": {
-    "format": "{usage}% \uf080",
+    "format": "{usage}% ",
     "on-click": "sleep 0.1 && /usr/bin/kitty /bin/btop"
   },
   "memory": {
@@ -115,6 +116,7 @@
     },
     "format": "{capacity}% {icon}",
     "format-charging": "{capacity}% {icon} \udb85\udc0b",
+    "format-plugged": "{capacity}% {icon} \udb81\udea5",
     "format-full": "{capacity}% {icon} \udb85\udc0b",
     "format-icons": ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"]
   },
@@ -182,7 +184,7 @@
     "tooltip-format-connected": "{controller_alias}\n\n{device_enumerate}",
     "tooltip-format-enumerate-connected": "{device_alias}",
     "tooltip-format-enumerate-connected-battery": "{device_alias}   {device_battery_percentage}% \uf240",
-    "on-click": "sleep 0.1 && /usr/bin/kitty /home/pyro/go/bin/bluetuith"
+    "on-click": "sleep 0.1 && /usr/bin/kitty /bin/bluetuith"
   },
   "custom/privacy": {},
   "custom/vpn": {
@@ -190,5 +192,10 @@
     "interval": 1,
     "format": "{}",
     "on-click": "sleep 0.1 && /usr/local/sbin/AmneziaVPN"
+  },
+  "custom/rotation": {
+    "exec": "/home/pyro/.config/scripts/get_screen_rotation_active.sh",
+    "interval": 1,
+    "format": "{}"
   }
 }
